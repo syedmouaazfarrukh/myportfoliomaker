@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, clean portfolio website inspired by the design aesthetic of taimoor.xyz.
+A modern, clean portfolio website inspired by the modern design aesthetics
 
 ## Features
 
@@ -162,8 +162,3 @@ Your changes will automatically be deployed to GitHub Pages within a few minutes
 ## License
 
 Feel free to use this template for your own portfolio!
-
-## Credits
-
-Design inspired by [taimoor.xyz](https://taimoor.xyz/index.html)
-
