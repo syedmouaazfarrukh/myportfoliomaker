@@ -99,6 +99,66 @@ Simply add more skill tags:
 - Safari (latest)
 - Edge (latest)
 
+## Deployment to GitHub Pages
+
+Your portfolio is ready to be deployed to GitHub Pages! Follow these steps:
+
+### Step 1: Create a GitHub Repository
+
+1. Go to [GitHub](https://github.com) and sign in with your account (mouaazfarrukh99@gmail.com)
+2. Click the "+" icon in the top right corner and select "New repository"
+3. Name your repository (e.g., `portfolio` or `my-portfolio`)
+4. Make it **Public** (required for free GitHub Pages)
+5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
+6. Click "Create repository"
+
+### Step 2: Push Your Code to GitHub
+
+Run these commands in your terminal (from the project directory):
+
+```bash
+# Add your GitHub repository as remote (replace YOUR_USERNAME and REPO_NAME)
+git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+
+# Rename branch to main if needed
+git branch -M main
+
+# Push your code
+git push -u origin main
+```
+
+**Note:** Replace `YOUR_USERNAME` with your GitHub username and `REPO_NAME` with your repository name.
+
+### Step 3: Enable GitHub Pages
+
+1. Go to your repository on GitHub
+2. Click on **Settings** (top menu)
+3. Scroll down to **Pages** in the left sidebar
+4. Under **Source**, select **Deploy from a branch**
+5. Choose **main** branch and **/ (root)** folder
+6. Click **Save**
+
+### Step 4: Access Your Portfolio
+
+Your portfolio will be available at:
+```
+https://YOUR_USERNAME.github.io/REPO_NAME/
+```
+
+**Note:** It may take a few minutes for the site to be live. GitHub will show you the URL once it's ready.
+
+### Updating Your Portfolio
+
+Whenever you make changes:
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push
+```
+
+Your changes will automatically be deployed to GitHub Pages within a few minutes!
+
 ## License
 
 Feel free to use this template for your own portfolio!
